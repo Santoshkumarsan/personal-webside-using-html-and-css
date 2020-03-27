@@ -1,0 +1,118 @@
+*{
+margin:0;
+padding:0;
+font-family:Century Gothic;
+}
+body{
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("Background.JPG");
+height:120;
+top:10;
+background-size:left;
+background-position:left;
+
+
+
+}
+
+ul{
+float:right;
+    list-style-type:none;
+	margin-top:20px;
+	}
+ul li{
+    display:inline-block;
+	}
+
+	ul li a{
+	text-decoration: none;
+	color:#fff;
+	padding:10px 20px;
+	border:5px solid #fff;
+	transition: 0.6s ease;
+	}
+ul li.active a{
+background-color:#fff;
+	color:green
+}
+	ul li a:hover{
+	background-color:#fff;
+	color:green;}
+
+.logo img{
+float:left;
+width:30px;
+padding:44px 40px;
+height:30px;
+border:2px;
+
+}
+.main{
+max-width:1200px;
+margin:auto;
+
+}
+.title{
+position:absolute;
+top:55%;
+left:35%;
+transform:translate(-50%,-50%)
+color:green
+}
+.title h1{
+color: blue;
+font-size:70px;
+}
+.insta a{
+text-decoration: none;
+	color:#fff;
+	font-size:30px;
+	transition: 0.6s ease;
+}
+.insta a:hover{
+	background-color:#fff;
+	color:green;}
+
+.button a 
+{ position:absolute;
+top:70%;
+left:58%;
+
+transform:translate(-50%,-50%)
+color:green
+transition: 0.6s ease;
+}
+
+  
+  .btn{
+  border:1px solid #fff  transparent;
+  padding:7px 17px;
+  color:green;
+  text-decoration:none;
+  }
+  .buttom a 
+{ 
+position:absolute;
+top:70%;
+left:68%;
+
+transform:translate(-50%,-50%)
+color:green
+transition: 0.6s ease;
+}
+
+  
+  .btm
+  {
+  border:1px solid #fff transparent;
+  padding:7px 17px;
+  color:green;
+  text-decoration:none;
+  }
+  .button a:hover{
+	background-color:#fff;
+	color:green;
+	}
+	 .buttom a:hover{
+	background-color:#fff;
+	color:green;
+	}

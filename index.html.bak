@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>santosh kumar</title>
+  <link rel="stylesheet" type="text/css" href="css/noname4.css">
+  
+ </head>
+ <body>
+
+ 
+ <header>
+
+      <div class="main">
+	  <div class="logo"> 
+	  <img src="insta.jpg">
+	  </div>
+	  <div><li class="insta"><a href="https://www.instagram.com/itz_santu__/"><h3>itz_santu</h3></li></div>
+	  <div><li class="fb"><a href="https://www.facebook.com/santoshkumar.das.752/photos_all"><h3>santosh kumar</h3></li></div>
+	  <div>
+	      <ul>
+					   <li class="active"><a href="#"><h3>HOME</h3></a> </li>
+					   <li><a href="#"><h3>services </h3></a> </li>
+					   <li><a href="#"><h3>shoping </h3></a> </li>
+					   <li><a href="#"><h3>Gallery   </h3></a> </li>
+					   <li><a href="#"><h4>about me</h4></a> </li>
+					   </ul>
+   </div>
+   <div 
+   class="title"><h1>WELCOME TO MY WORLD</h1>
+   </div>
+   <div class="button">
+   <a href="#" class="btn"><h4>watch video<h4></a>
+    </div>
+
+ <div class="buttom">
+   <a href="#" class="btm"><h4>learn more<h4></a>
+    </div>
+</header>
+  
+ </body>
+</html>
