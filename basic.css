@@ -1,0 +1,196 @@
+* {
+    margin: auto;
+    padding: 0px;
+    font-family: Century Gothic;
+}
+
+.halfimg img {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    width: 1350px;
+    padding: 10px 0px;
+    height: 350px;
+}
+
+button {
+    margin-top: 20px;
+    float: right;
+    text-decoration: none;
+    background-color: rgb(179, 165, 48);
+    padding: 5px 7px;
+    border: 3px solid rgb(238, 241, 241);
+    transition: 0.6s ease;
+}
+
+button .active a {
+    color: green;
+}
+
+button a:hover {
+    background-color: rgb(27, 163, 152);
+    color: green;
+}
+
+.navb {
+    margin-top: 0px;
+    border: 30px solid rgb(32, 69, 94);
+}
+
+.title {
+    position: absolute;
+    top: 25%;
+    left: 34%;
+    transform: translate(-50%, -50%) color green;
+}
+
+.title h1 {
+    color: blue;
+    font-size: 70px;
+}
+
+.insta h3 {
+    text-decoration: none;
+    color: green;
+    font-size: 35px;
+    border: 1px;
+    left: 13vh;
+    top: 6vh;
+    transition: 0.6 ease;
+    position: absolute;
+}
+
+.insta h3:hover {
+    background-color: #fff;
+    color: green;
+}
+
+p {
+    margin-top: 30%;
+    background-image: url(somu.jpg);
+}
+
+.fb h3 {
+    text-decoration: none;
+    color: green;
+    font-size: 30px;
+    transition: 0.6 ease;
+    border: 1px;
+    left: 13vh;
+    top: 15vh;
+    position: absolute;
+}
+
+.fb h3:hover {
+    background-color: #fff;
+    color: green;
+}
+
+.but {
+    position: absolute;
+    top: 43%;
+    left: 55%;
+    color: darkblue;
+    background-color: yellowgreen;
+    padding: 2px 2px;
+    border: 1px solid grey;
+    transform: translate(-50%, -50%);
+    transition: 0.6s ease;
+}
+
+.buttom {
+    position: absolute;
+    top: 43%;
+    left: 68%;
+    color: darkblue;
+    background-color: yellowgreen;
+    padding: 2px 2px;
+    border: 1px solid grey;
+    transform: translate(-50%, -50%);
+    transition: 0.6s ease;
+}
+
+.but a:hover {
+    background-color: #fff;
+    color: green;
+}
+
+.buttom a:hover {
+    background-color: #fff;
+    color: green;
+}
+
+.som img {
+    float: left;
+    margin-top: 2%;
+    margin-left: 20px;
+    width: 200px;
+    height: 256px;
+}
+
+.hh .f {
+    margin-top: 4%;
+    text-align: left;
+    margin-left: 20%;
+    font-family: "Times new roman";
+    color: rgb(224, 11, 100);
+}
+
+.hh .s {
+    margin-top: 2%;
+    text-align: left;
+    margin-left: 20%;
+    font-family: "Times new roman";
+    color: rgb(224, 11, 100);
+}
+
+.hh .t {
+    margin-top: 2%;
+    text-align: left;
+    margin-left: 2%;
+    font-family: "Times new roman";
+    color: rgb(224, 11, 100);
+}
+
+.hh .o {
+    margin-top: 2%;
+    text-align: left;
+    margin-left: 2%;
+    font-family: "Times new roman";
+    color: rgb(224, 11, 100);
+}
+
+.hh .p {
+    margin-top: 2%;
+    text-align: left;
+    margin-left: 2%;
+    font-family: "Times new roman";
+    color: rgb(224, 11, 100);
+}
+
+.cont {
+    float: inline-start;
+    border: lawngreen;
+    padding: 2px 2px;
+    transition: 0.6s ease;
+}
+
+.contact ul li a:hover {
+    background-color: rgb(27, 163, 152);
+    color: green;
+}
+
+.halfimglast img {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    margin-bottom: 10px;
+    width: 1350px;
+    padding: 13px 10px;
+    height: 200px;
+    border: 2px;
+}
+
+.navbar-brand {
+    margin-left: 0px;
+}
+
+.nav {
+    margin-right: 5px;
+}
