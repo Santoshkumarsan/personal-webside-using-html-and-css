@@ -1,83 +1,44 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding: 0px;
     font-family: Century Gothic;
 }
 
 .halfimg img {
-    float: left;
-    width: 1330px;
-    padding: 13px 10px;
-    height: 300px;
-    border: 2px;
-    background-size: cover;
-    background-position: cover;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    width: 1350px;
+    padding: 10px 0px;
+    height: 350px;
 }
 
-ul {
-    float: right;
-    list-style-type: none;
+button {
     margin-top: 20px;
-}
-
-ul li {
-    display: inline-block;
-}
-
-ul li {
+    float: right;
     text-decoration: none;
-    color: rgb(224, 11, 11);
-    padding: 2px 7px;
+    background-color: rgb(179, 165, 48);
+    padding: 5px 7px;
     border: 3px solid rgb(238, 241, 241);
     transition: 0.6s ease;
 }
 
-ul li.active a {
-    background-colo: fff;
+button .active a {
     color: green;
 }
 
-ul a:hover {
+button a:hover {
     background-color: rgb(27, 163, 152);
     color: green;
 }
 
-.logo img {
-    float: left;
-    width: 30px;
-    padding: 1px 1px;
-    height: 30px;
-    border: 4px;
-    left: 5vh;
-    top: 7vh;
-    position: absolute;
-}
-
-.fb h3 {
-    color: rgb(18, 230, 18);
-}
-
-.fblogo img {
-    float: left;
-    width: 30px;
-    padding: 60px 0px;
-    height: 30px;
-    border: 4px;
-    border-color: rgb(230, 28, 28);
-    left: 5vh;
-    top: 7vh;
-    position: absolute;
-}
-
-.main {
-    max-width: 1200px;
-    margin: auto;
+.navb {
+    margin-top: 0px;
+    border: 30px solid rgb(32, 69, 94);
 }
 
 .title {
     position: absolute;
     top: 25%;
-    left: 35%;
+    left: 34%;
     transform: translate(-50%, -50%) color green;
 }
 
@@ -102,6 +63,11 @@ ul a:hover {
     color: green;
 }
 
+p {
+    margin-top: 30%;
+    background-image: url(somu.jpg);
+}
+
 .fb h3 {
     text-decoration: none;
     color: green;
@@ -118,37 +84,31 @@ ul a:hover {
     color: green;
 }
 
-.button a {
+.but {
     position: absolute;
     top: 43%;
-    left: 58%;
+    left: 55%;
+    color: darkblue;
+    background-color: yellowgreen;
+    padding: 2px 2px;
+    border: 1px solid grey;
     transform: translate(-50%, -50%);
     transition: 0.6s ease;
 }
 
-.btn {
-    border: 1px solid #fff transparent;
-    padding: 5px 11px;
-    color: green;
-    text-decoration: none;
-}
-
-.buttom a {
+.buttom {
     position: absolute;
     top: 43%;
     left: 68%;
+    color: darkblue;
+    background-color: yellowgreen;
+    padding: 2px 2px;
+    border: 1px solid grey;
     transform: translate(-50%, -50%);
     transition: 0.6s ease;
 }
 
-.btm {
-    border: 1px solid #fff transparent;
-    padding: 5px 11px;
-    color: green;
-    text-decoration: none;
-}
-
-.button a:hover {
+.but a:hover {
     background-color: #fff;
     color: green;
 }
@@ -158,42 +118,79 @@ ul a:hover {
     color: green;
 }
 
-.san img {
+.som img {
     float: left;
-    width: 390px;
-    padding: 43px 60px;
-    height: 460px;
-    border: 5px;
-    background-size: cover;
-    background-position: cover;
+    margin-top: 2%;
+    margin-left: 20px;
+    width: 200px;
+    height: 256px;
 }
 
-.hm h4 {
-    text-decoration: wavy;
-    border: none;
+.hh .f {
+    margin-top: 4%;
+    text-align: left;
+    margin-left: 20%;
+    font-family: "Times new roman";
     color: rgb(224, 11, 100);
-    padding: 20px 10px;
 }
 
-.hh h4 {
-    position: relative;
-    top: 50%;
-    text-decoration-style: solid;
-    text-decoration: wavy;
-    border: none;
+.hh .s {
+    margin-top: 2%;
+    text-align: left;
+    margin-left: 20%;
+    font-family: "Times new roman";
     color: rgb(224, 11, 100);
-    padding: 10px 5px;
 }
 
-.contact ul li a {
-    text-decoration: none;
-    color: rgb(224, 11, 11);
-    padding: 20px 70px;
-    border: 3px solid rgb(238, 241, 241);
+.hh .t {
+    margin-top: 2%;
+    text-align: left;
+    margin-left: 2%;
+    font-family: "Times new roman";
+    color: rgb(224, 11, 100);
+}
+
+.hh .o {
+    margin-top: 2%;
+    text-align: left;
+    margin-left: 2%;
+    font-family: "Times new roman";
+    color: rgb(224, 11, 100);
+}
+
+.hh .p {
+    margin-top: 2%;
+    text-align: left;
+    margin-left: 2%;
+    font-family: "Times new roman";
+    color: rgb(224, 11, 100);
+}
+
+.cont {
+    float: inline-start;
+    border: lawngreen;
+    padding: 2px 2px;
     transition: 0.6s ease;
 }
 
 .contact ul li a:hover {
     background-color: rgb(27, 163, 152);
     color: green;
+}
+
+.halfimglast img {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    margin-bottom: 10px;
+    width: 1350px;
+    padding: 13px 10px;
+    height: 200px;
+    border: 2px;
+}
+
+.navbar-brand {
+    margin-left: 0px;
+}
+
+.nav {
+    margin-right: 5px;
 }

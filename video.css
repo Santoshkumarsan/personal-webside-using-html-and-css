@@ -4,10 +4,12 @@
     font-family: Century Gothic;
 }
 
-body {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("download.JPG");
-    height: 120;
-    top: 10;
-    background-size: left;
-    background-position: left;
+.vid video {
+    float: left;
+    width: 650px;
+    padding: 30px 40px;
+    height: 400px;
+    border: 2px;
+    background-size: cover;
+    background-position: cover;
 }
