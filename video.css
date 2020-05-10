@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+.vid video {
+    float: left;
+    width: 650px;
+    padding: 30px 40px;
+    height: 400px;
+    border: 2px;
+    background-size: cover;
+    background-position: cover;
+}
